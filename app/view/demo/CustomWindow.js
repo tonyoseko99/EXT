@@ -12,6 +12,10 @@ Ext.define(
     modal: true,
   },
   function () {
-    Ext.create("ExtTraining.view.demo.CustomWindow");
+    // Ext.create("ExtTraining.view.demo.CustomWindow");
+    var wd = Ext.create({
+      xtype: "customwindow",
+    });
+    wd.show();
   }
 );
