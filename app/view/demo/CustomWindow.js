@@ -8,7 +8,6 @@ Ext.define(
     width: 520,
     autoShow: true,
     closable: true,
-    maximizable: true,
     modal: true,
   },
   function () {

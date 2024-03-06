@@ -3,4 +3,5 @@ Ext.define("ExtTraining.store.Posts", {
   alias: "store.posts",
   model: "ExtTraining.model.Post",
   requires: ["ExtTraining.model.Post"],
+  autoLoad: true,
 });
