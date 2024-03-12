@@ -3,7 +3,7 @@ Ext.define("ExtTraining.view.posts.PostFormWindow", {
   xtype: "postformwindow",
   controller: "postformcontroller",
   title: "Add Post",
-  height: 250,
+  height: 350,
   width: 520,
   autoShow: true,
   closable: true,

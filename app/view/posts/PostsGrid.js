@@ -14,12 +14,12 @@ Ext.define("ExtTraining.view.posts.PostsGrid", {
         click: "onAddPostClicked",
       },
     },
-    {
-      text: "Form fields",
-      listeners: {
-        click: "onFormFieldsClicked",
-      },
-    },
+    // {
+    //   text: "Form fields",
+    //   listeners: {
+    //     click: "onFormFieldsClicked",
+    //   },
+    // },
     {
       text: "Layouts",
       listeners: {

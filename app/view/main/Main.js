@@ -95,11 +95,13 @@ Ext.define("ExtTraining.view.main.Main", {
       ],
     },
     {
-      title: "Groups",
+      title: "Static Data Management",
       iconCls: "fa-users",
-      bind: {
-        html: "{loremIpsum}",
-      },
+      items: [
+        {
+          xtype: "parentpanel",
+        },
+      ],
     },
     {
       title: "Settings",
